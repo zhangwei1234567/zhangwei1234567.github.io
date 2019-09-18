@@ -1,0 +1,135 @@
+/****PG****/
+.pg-nav{
+	padding-top:20px;
+}
+.pg-nav>div p{
+	color: #FFFFFF;
+	line-height: 50px;
+	margin: 0;
+	padding-left: 40px;
+	font-size: 16px;
+	position: relative;
+}
+.pg-nav>div p:before{
+	display: block;
+	content: "";
+	width:10px;
+	height: 10px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 15px;
+	top:20px;
+}
+.pg-nav>ul li a{
+	border:1px solid #d1d1d1;
+	background-color: #E5E5E5;
+	color: #444;
+	border-top:none;
+	display: inline-block;
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 2em;
+	font-size: 15px;
+} 
+.pg-nav>ul li a:hover{
+	text-decoration: none;
+	color: #2C77DE;
+}
+.pg-nav>ul li a:after{
+	position: absolute;
+}
+.face{
+	padding-bottom: 10px;
+}
+.face img{
+	max-width:100%;
+}
+.tit-ab{
+	background-color: #EC6100;
+}
+.tit-ol{
+	background-color: #2C77DE;
+}
+.tit-co{
+	background-color: #CF2F04;
+}
+.title{
+	padding:10px 0 15px;
+	border-bottom: 1px solid #028BCF;
+}
+.title h1{
+	font-size: 18px;
+	margin:0;
+	font-weight: bold;
+	color: #00389C;
+	padding-left: 20px;
+	position: relative;
+}
+.title h1:before{
+	display: block;
+	content: ""; 
+	width:10px;
+	height: 10px;
+	position: absolute;
+	background: url(../images/a.png);
+	left: 0px;
+	top:5px
+}
+.title h1 span{
+	font-size: 14px;
+	font-weight: normal;
+	color: #888; 
+	padding-left: 10px;
+}
+
+@media only screen and (max-width: 992px){
+	.quicklink li a{
+		padding:5px;
+		text-align: center;
+	}
+	.quicklink li img{
+		float: none;
+		padding: 0;
+	}
+	.quicklink li div span{
+		font-size: 15px;
+		padding:5px 0 0;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.news-list{
+		padding-bottom: 10px;
+	}
+	.nav{
+		padding:20px 0;
+		float: left !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.onlinepg>div li input{
+		width:100%;
+	}
+	.navbar-brand{
+		padding:0 !important;
+	}
+	.sec{
+		padding-top: 20px; 
+		padding-bottom: 0;
+	}
+	.foot-nav{
+		display: none;
+	}
+	footer{
+		margin-bottom: 50px;
+	}
+	.navbar-header{
+		padding:10px 0;
+	}
+	.fl{
+		display: block;
+	}
+	.face{
+		display: none;
+	}
+}
